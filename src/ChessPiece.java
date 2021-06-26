@@ -2,7 +2,7 @@ public abstract class ChessPiece {
     String color;
     boolean check = true;
 
-    ChessPiece(String color) {
+    public ChessPiece(String color) {
         this.color = color;
     }
 
